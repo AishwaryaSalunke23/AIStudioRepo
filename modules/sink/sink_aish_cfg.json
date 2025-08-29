@@ -1,0 +1,23 @@
+{
+    "user_id": "a55a8962-5073-52e3-a6c7-68aea4967699",
+    "type": "sink",
+    "apiVersion": "v2",
+    "meta": {
+        "name": "sink_aish",
+        "display_name": "Sink Aish",
+        "id": "3acaf67a-21ad-56b8-85d2-b4936b5ecd74",
+        "tags": [],
+        "description": ""
+    },
+    "info": {},
+    "computereq": {
+        "gpu": false,
+        "vcpus": null,
+        "ram": null,
+        "disk": null,
+        "vram": null
+    },
+    "libs": [],
+    "apptype": "None",
+    "ctags": []
+}
