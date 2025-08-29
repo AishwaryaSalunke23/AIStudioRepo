@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "id": "b1b82c32-8537-5e5e-ab93-73fac482a5f8",
+        "name": "Source",
+        "tags": [],
+        "description": "Source block for Blob, Filesystem",
+        "display_name": "Source"
+    },
+    "computereq": {
+        "gpu": null,
+        "containerspec": [],
+        "vcpus": null,
+        "ram": null,
+        "disk": null,
+        "vram": null
+    },
+    "libs": [],
+    "ctags": [],
+    "apptype": "None",
+    "user_id": "54a226b9-8ea6-4370-b0b0-c256b2ab8f87",
+    "type": "source",
+    "apiVersion": "v2",
+    "info": {
+        "cfg": [
+            {
+                "key": "accOut",
+                "name": "Accumulator Out",
+                "type": "List<Str>",
+                "options": [
+                    {
+                        "key": "79322a46-e46b-5fdf-9be7-cab2f526d128",
+                        "name": "FileAcc",
+                        "hasOptions": false
+                    }
+                ],
+                "multiselect": false,
+                "has_fixed_options": true
+            },
+            {
+                "key": "storage_type",
+                "name": "Storage",
+                "type": "List<Map>",
+                "options": [
+                    {
+                        "key": "blobstorage",
+                        "name": "Azure Blob Storage",
+                        "hasOptions": true
+                    },
+                    {
+                        "key": "filesystem",
+                        "name": "File System",
+                        "hasOptions": true
+                    }
+                ],
+                "multiselect": true,
+                "has_fixed_options": true
+            }
+        ],
+        "subcfg": {
+            "filesystem": [
+                {
+                    "key": "instance_name",
+                    "name": "Instance Name",
+                    "type": "String",
+                    "has_fixed_options": false
+                },
+                {
+                    "key": "filesystem_path",
+                    "name": "Input dataset path",
+                    "type": "String",
+                    "has_fixed_options": false
+                },
+                {
+                    "key": "acc_key",
+                    "name": "Acc Key",
+                    "type": "String",
+                    "has_fixed_options": false
+                }
+            ],
+            "blobstorage": [
+                {
+                    "key": "instance_name",
+                    "name": "Instance Name",
+                    "type": "String",
+                    "has_fixed_options": false
+                },
+                {
+                    "key": "connection_params",
+                    "name": "Connection Parameters",
+                    "type": "String",
+                    "has_fixed_options": false
+                },
+                {
+                    "key": "container_path",
+                    "name": "Container Path",
+                    "type": "String",
+                    "has_fixed_options": false
+                },
+                {
+                    "key": "acc_key",
+                    "name": "Acc Key",
+                    "type": "String",
+                    "has_fixed_options": false
+                }
+            ]
+        }
+    }
+}
