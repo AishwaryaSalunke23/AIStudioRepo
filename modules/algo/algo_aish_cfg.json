@@ -1,0 +1,23 @@
+{
+    "user_id": "a55a8962-5073-52e3-a6c7-68aea4967699",
+    "type": "algo",
+    "apiVersion": "v2",
+    "meta": {
+        "name": "algo_aish",
+        "display_name": "Algo Aish",
+        "id": "2b745c3e-060d-59ef-a14c-e9a8b70952dc",
+        "tags": [],
+        "description": ""
+    },
+    "info": {},
+    "computereq": {
+        "gpu": false,
+        "vcpus": null,
+        "ram": null,
+        "disk": null,
+        "vram": null
+    },
+    "libs": [],
+    "apptype": "None",
+    "ctags": []
+}
