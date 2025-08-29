@@ -1,0 +1,23 @@
+{
+    "user_id": "a55a8962-5073-52e3-a6c7-68aea4967699",
+    "type": "source",
+    "apiVersion": "v2",
+    "meta": {
+        "name": "source_aish",
+        "display_name": "Source Aish",
+        "id": "ad7f9d92-3696-58a4-bdae-6c4eb5cd0a21",
+        "tags": [],
+        "description": ""
+    },
+    "info": {},
+    "computereq": {
+        "gpu": false,
+        "vcpus": null,
+        "ram": null,
+        "disk": null,
+        "vram": null
+    },
+    "libs": [],
+    "apptype": "None",
+    "ctags": []
+}
