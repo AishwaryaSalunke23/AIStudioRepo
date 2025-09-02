@@ -1,3 +1,15 @@
 {
-    "project_path": "C:/Users/IQL1KOR/Desktop/Topics/AI_Forge/Others/VSCodeExtensionProjects/ai_studio_cli_aish"
+    "project_path": "C:/Users/IQL1KOR/Desktop/Topics/AI_Forge/Others/VSCodeExtensionProjects/ai_studio_cli_aish",
+    "Source": {
+        "asset_id": "b1b82c32-8537-5e5e-ab93-73fac482a5f8"
+    },
+    "source_aish": {
+        "asset_id": "ad7f9d92-3696-58a4-bdae-6c4eb5cd0a21"
+    },
+    "algo_aish": {
+        "asset_id": "2b745c3e-060d-59ef-a14c-e9a8b70952dc"
+    },
+    "sink_aish": {
+        "asset_id": "3acaf67a-21ad-56b8-85d2-b4936b5ecd74"
+    }
 }
